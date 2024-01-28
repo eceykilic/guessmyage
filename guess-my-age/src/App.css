@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body {
+  background-color: #ffcbcb;
+}
+
+
+.headerimg {
+  width: 100%;
+  aspect-ratio: 11/1;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.header {
+  font-family: 'Pixelify Sans', sans-serif;
+  color: #132743;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.header-title {
+  margin-top: 1rem;
+}
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 500px;
+  text-align:left;
+  border: 2px solid #407088;
+  padding: 1rem;
+  border-radius: 15px;
+  font-family: 'Single Day', cursive;
+  font-size: 1.3rem;
+  color:#132743;
+  gap: 2rem;
+  height: 18rem;
+  margin-top: 2rem;
+  background-color: #407088;
+  font-weight: 600;
+  margin-bottom: 8rem;
+}
+
+.yas {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 2rem;
+  position:relative;
+}
+
+.btn {
+  border: 2px solid #407088;
+  border-radius: 15px;
+  margin: 0.2rem;
+  margin-left: 1rem;
+  color:#132743;
+  background-color: #ffcbcb;
+}
+
+.input-area {
+  width: 13rem;
+  border: 2px solid #407088;
+  border-radius: 15px;
+  margin: 0.2rem;
+  margin-left: 0.5rem;
+  color:#132743;
+  background-color: #ffcbcb;
+
+}
+
+/*
+.first-color { 
+	background: #ffcbcb; 
+}
+	
+.second-color { 
+	background: #ffb5b5; 
+}
+
+.third-color { 
+	background: #407088; 
+}
+
+.fourth-color { 
+	background: #132743; 
+
+  */
+
+.yas-tahmini {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.name-input {
+  margin-top: 3rem;
+}
+
+.footerimg {
+  width: 20%;
+}
+
+hr { 
+  height: 2px;
+  background-color: #132743;
+  border: none;
+}
+
+.footerimg {
+  margin-top: 2rem;
+  border-radius: 15px;
+  margin-left: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
